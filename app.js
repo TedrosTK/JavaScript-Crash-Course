@@ -6,15 +6,15 @@
 
 
 for (let i=1; i<=20; i++) {
-    let a = i % 3 == 0;
-    let b = i % 5 == 0;
+    let a = i % 3 === 0;
+    let b = i % 5 === 0;
     if(a && b){
-        console.log("Frontend Simplified");
+        console.log(`${i} -> Frontend Simplified`);
     }else if(a){
-        console.log("Frontend");
+        console.log(`${i} -> Frontend`);
     }else if(b){
-        console.log("Simplified");
+        console.log(`${i} -> Simplified`);
     }else {
-        console.log(i);
+        console.log(`${i} -> ${i}`);
     }
 }
