@@ -19,8 +19,14 @@
 //     }
 // }
 
-let str = "Frontend Simplified"
-for (let i = 0; i < str.length; i++){
-    console.log(str[i]);
+// const str = "Frontend Simplified"
+// for (let i = 0; i < str.length; i++){
+//     console.log(str[i]);
+// }
+
+function convertCelciusToFahrenheit(c){
+    console.log(c*1.8 + 32)
 }
+
+convertCelciusToFahrenheit(20)
 
