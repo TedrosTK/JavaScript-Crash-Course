@@ -24,9 +24,60 @@
 //     console.log(str[i]);
 // }
 
-function convertCelciusToFahrenheit(c){
-    console.log(c*1.8 + 32)
+// function convertCelciusToFahrenheit(c){
+//     console.log(c*1.8 + 32)
+// }
+
+// convertCelciusToFahrenheit(20)
+
+// let grades = ['A+', 'A', 'FAIL']
+// let goodGrades = []
+
+// let newGrades = grades.filter(element => element !== 'FAIL')
+// console.log(newGrades)
+
+// for (i=0; i < grades.length; i++) { 
+//     if(grades[i] !== 'FAIL'){
+//         goodGrades.push(grades[i])
+//     }
+// }
+
+// console.log(goodGrades)
+
+
+
+
+//let dollars = [1, 5, 10, 3];
+
+// // let cents = dollars.map(e => e*100)
+
+// let cents = dollars.map((element) => {
+//     return element*100
+// }
+// )
+// console.log(cents)
+
+// let cents = []
+// for(i=0; i < dollars.length; i++){
+//     cents.push(dollars[i]*100)
+// }
+
+// console.log(cents)
+
+
+let users = []
+function register(user) {  
+    users.push(user);
 }
 
-convertCelciusToFahrenheit(20)
 
+register({
+    username: 'username2',
+    email: 'email',
+    password: 'password',
+    subscriptionStatus: 'subscriptionStatus',
+    discordId: 'discordId',
+    lessonsCompleted: 'lessonsCompleted'
+});
+
+console.log(users)
